@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+
 
 body {
   font-family: Rubik;
@@ -21,11 +23,11 @@ body {
 }
 .display-4 {
   font-family: 'CHLORENF';
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 4.8rem;
+  font-size: 5.6rem;
 }
 .display-5 {
   font-family: 'CHLORENF';
@@ -60,9 +62,9 @@ body {
     line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.8rem;
+    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -1312,6 +1314,10 @@ section.lazy-placeholder:after {
 .cid-rERMLtFQmb H5 {
   color: #000000;
 }
+.cid-rERMLtFQmb A {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
 .cid-rF3U5Z4vbl {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1725,7 +1731,7 @@ section.lazy-placeholder:after {
 .cid-rF3SUgTtGi {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 @media (max-width: 767px) {
   .cid-rF3SUgTtGi .content {
@@ -1791,8 +1797,8 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rF3SUgTtGi P {
-  color: #000000;
+  color: #ffffff;
 }
 .cid-rF3SUgTtGi H5 {
-  color: #000000;
+  color: #ffffff;
 }
